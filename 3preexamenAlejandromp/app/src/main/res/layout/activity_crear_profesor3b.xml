@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".crearProfesor3b">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Crear Profesor"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+
+        <EditText
+            android:id="@+id/etNombreProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre Profesor"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etEdadProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Edad Profesor"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etCicloProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ciclo Profesor"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etCursoProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Campo Curso"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/etTutorProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Curso Tutor"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etDespachoProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Despacho"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnCrearProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear profesor" />
+    </LinearLayout>
+</LinearLayout>

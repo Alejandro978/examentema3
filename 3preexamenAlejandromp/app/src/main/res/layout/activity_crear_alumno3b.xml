@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearAlumno3b"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Crear Alumno"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        >
+
+
+        <EditText
+            android:id="@+id/etNombreAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre Alumno"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etEdadAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Edad Alumno"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etCicloAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ciclo Alumno"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etCursoAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CursoAlumno"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnCrearAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear Usuario" />
+    </LinearLayout>
+</LinearLayout>

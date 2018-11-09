@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".consultasPreexamen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/et_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Simple filtro"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/etViejoNombreAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre del usuario a updatear su nombre"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/etNuevoNombreAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nuevo nombre de este usuario"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnEliminarPorCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar alumno por ciclo" />
+
+    <Button
+        android:id="@+id/btnMostrarAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar todos los alumnos" />
+
+    <Button
+        android:id="@+id/btnUpdateNombreAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar viejo nombre por nuevo nombre" />
+
+
+</LinearLayout>

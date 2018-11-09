@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="¿QUÉ DESEA HACER?"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="100dp">
+
+        <Button
+            android:id="@+id/btnToConsultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXAMEN ALUMNOS POR ASIGNATURA INTRODUCIDA" />
+
+        <Button
+            android:id="@+id/btnToCrearAsignatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear asignatura" />
+
+        <Button
+            android:id="@+id/btn3a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3A-Crear Usuario SharedPreferences" />
+
+        <Button
+            android:id="@+id/btnCrearAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3B- Crear Alumno" />
+
+        <Button
+            android:id="@+id/btnCrearProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3b-Crear Profesor" />
+
+
+
+
+        <Button
+            android:id="@+id/btnToConsultasPreexamen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultas varias preexamen" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

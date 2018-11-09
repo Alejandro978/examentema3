@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".consultasVarias3c">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+    </ScrollView>
+
+
+    <EditText
+        android:id="@+id/et_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre de la asignatura a para comprobar cantidad de alumnos..."
+        android:inputType="textPersonName"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/consultaAlumnosCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar alumnos por asignatura"
+        android:onClick="mostrarAlumnosAsignatura"/>
+
+    <Button
+        android:id="@+id/consultaAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarAlumnos"
+        android:text="mostrar alumnos" />
+
+    <Button
+        android:id="@+id/consultaProfesores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarProfesores"
+        android:text="mostrar profesores" />
+
+
+
+    <Button
+        android:id="@+id/consultaAlumnosCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mostrar alumnos por curso"
+        android:onClick="mostrarAlumnosCurso"/>
+
+    <Button
+        android:id="@+id/consultaTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mostrar profesores y alumnos"
+        android:onClick="mostrarTodo"/>
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="borrarTextView"
+        android:text="Borrar texto del text view" />
+
+</LinearLayout>
